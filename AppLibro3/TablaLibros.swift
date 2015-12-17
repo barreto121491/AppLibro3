@@ -13,7 +13,7 @@ import UIKit
 class TablaLibros: UITableViewController {
     
    
-    var image : UIImage = UIImage(named:"404.png ")!
+   
 
     @IBOutlet weak var activity: UIActivityIndicatorView!
     
@@ -165,7 +165,7 @@ class TablaLibros: UITableViewController {
                     //libr.append(dico2["title"] as! String)
                     if (dico2["cover"] == nil){
                         //portada.text = "no hay portada"
-                        libro.portada = image
+                        libro.portada = UIImage(named: "404.png")
                         
                     }
                     else{
