@@ -13,7 +13,7 @@ import UIKit
 class TablaLibros: UITableViewController {
     
    
-    var image : UIImage = UIImage(named:"404")!
+    var image : UIImage = UIImage(named:"404.png ")!
 
     @IBOutlet weak var activity: UIActivityIndicatorView!
     
