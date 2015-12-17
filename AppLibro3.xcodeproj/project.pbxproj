@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282F70021C2211060064C365 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282F70011C2211060064C365 /* Search.swift */; };
+		282F70041C222B6B0064C365 /* Libro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282F70031C222B6B0064C365 /* Libro.swift */; };
 		284B5D661C14F8AB006EF49C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284B5D651C14F8AB006EF49C /* AppDelegate.swift */; };
 		284B5D6B1C14F8AB006EF49C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284B5D691C14F8AB006EF49C /* Main.storyboard */; };
 		284B5D6E1C14F8AB006EF49C /* AppLibro3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 284B5D6C1C14F8AB006EF49C /* AppLibro3.xcdatamodeld */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		282F70011C2211060064C365 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		282F70031C222B6B0064C365 /* Libro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Libro.swift; sourceTree = "<group>"; };
 		284B5D621C14F8AB006EF49C /* AppLibro3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppLibro3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		284B5D651C14F8AB006EF49C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		284B5D6A1C14F8AB006EF49C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				284B5D711C14F8AB006EF49C /* LaunchScreen.storyboard */,
 				284B5D741C14F8AB006EF49C /* Info.plist */,
 				284B5D6C1C14F8AB006EF49C /* AppLibro3.xcdatamodeld */,
+				282F70011C2211060064C365 /* Search.swift */,
+				282F70031C222B6B0064C365 /* Libro.swift */,
 			);
 			path = AppLibro3;
 			sourceTree = "<group>";
@@ -142,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282F70041C222B6B0064C365 /* Libro.swift in Sources */,
 				284B5D661C14F8AB006EF49C /* AppDelegate.swift in Sources */,
 				284B5D7B1C14F8FD006EF49C /* TablaLibros.swift in Sources */,
 				2861050F1C15FF190059DB78 /* VistaLibros.swift in Sources */,
+				282F70021C2211060064C365 /* Search.swift in Sources */,
 				284B5D6E1C14F8AB006EF49C /* AppLibro3.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
